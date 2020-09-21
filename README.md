@@ -1,2 +1,2 @@
-# baisc-gaming-site-webpages
+# basic-gaming-site-webpages
 used HTML and CSS
