@@ -1,2 +1,3 @@
 # basic-gaming-site-webpages
-used HTML and CSS
+used HTML and CSS for creating frontend
+
