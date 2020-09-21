@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  list-style-type: none;
+}
+
+/* Start sec1 */
+/* Nav area */
+
+nav {
+  width: 100%;
+  height: 35px;
+  background-color: #000;
+  line-height: 35px;
+}
+
+.mainmenu {
+  float: right;
+  margin: 0 20px 5px 0;
+}
+
+.mainmenu>li {
+  display: inline-block;
+}
+
+nav li:hover>a{
+  background-color: #E26400;
+  transition: 0.8s all
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+}
+
+nav .submenu {
+  position: absolute;
+  display: none;
+}
+
+nav .mainmenu>li:hover .submenu {
+  display: block;
+
+}
+/* Nav area */
+
+.sec1 {
+  background-image: url('wp3049123.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+/* Neon effect */
+
+.neon {
+  justify-content: center;
+  text-align: center;
+}
+
+.neon .neon1 {
+  position: relative;
+  top: 360px;
+  left: 250px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #E26400;
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 12px;
+  overflow: hidden;
+  transition: 0.1s;
+}
+
+.neon1:hover {
+  color: #fff;
+  background: #000;
+}
+
+.neon1 span {
+  position: absolute;
+  display: block;
+}
+
+.neon1 span:nth-child(1)
+{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#fff);
+}
+
+.neon1:hover span:nth-child(1)
+{
+  left: 100%;
+  transition: 1s;
+}
+
+.neon1 span:nth-child(3)
+{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#fff);
+}
+
+.neon1:hover span:nth-child(3)
+{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.neon1 span:nth-child(2)
+{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#fff);
+}
+
+.neon1:hover span:nth-child(2)
+{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.neon1 span:nth-child(4)
+{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#fff);
+}
+
+.neon1:hover span:nth-child(4)
+{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+/* End Neon effect */
+/* End sec1 */
+
+/* Start codm02.html */
+/* Start sec2 */
+.body2 {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+.sec2 .container {
+  width: 570px;
+  height: 390px;
+  margin: 20px 5px 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  float: right;
+}
+
+.container .box {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  background: #000;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.container .box .imgbox {
+  position: relative;
+}
+
+.container .box .imgbox img {
+  width: 250px;
+  height: 150px;
+  transition: all 2s ease;
+}
+
+.container .box:hover .imgbox img {
+  transform: scale(1.2);
+}
+
+.container .box .details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.6);
+  transform: scaleY(0);
+  transition: transform 0.5s;
+}
+
+.container .box:hover .details {
+  transform: scaleY(1);
+}
+
+.container .box .details .content2 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.container .box .details .content2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #ff0;
+}
+
+.container .box .details .content2 p {
+  margin: 10px 1px 0;
+  color: #fff;
+}
+
+.sec2 .content1 {
+  width: 410px;
+  height: 410px;
+  margin: 20px 0 10px 10px;
+  float:left;
+  background:  #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+.content1>h2 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Source Serif Pro' , serif;
+  letter-spacing: 6px;
+  margin: 0 auto 10px;
+}
+
+.content1>p {
+  text-align: justify;
+  color: #fff;
+  font-family: 'Source Serif Pro' , serif;
+  margin-top: 10px;
+}
+
+/* End sec2 */
